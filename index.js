@@ -1,16 +1,16 @@
 //DEPENDENCIES
 //fs - for file writing
-var fs = require("fs");
+const fs = require("fs");
 //inquirer - for terminal prompts
-var inquirer = require("inquirer");
+const inquirer = require("inquirer");
 //generate markdown
-var generateMarkdown = require("generateMarkdown.js");
+const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
 const questions = [
   {
     type: "input",
-    message: "What isthe title of your project?",
+    message: "What is the title of your project?",
     name: "title",
   },
   {
@@ -64,19 +64,21 @@ const questions = [
 ];
 
 // function to write README file
-// function writeToFile(fileName, data) {}
-
-// function to initialize program
-function init() {
-  inquirer.prompt(questions).then(function (response) {
-    fs.writeFile("README.md", JSON.stringify(response), function (err) {
-      if (err) {
-        return console.log(err);
-      }
-      console.log("It works");
-    });
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, function (err) {
+    if (err) {
+      return console.log(err);
+    }
   });
 }
 
-// function call to initialize program
+//function to initialize program
+function init() {
+  inquirer.prompt(questions).then(function (response) {
+    var markdownData = generateMarkdown(response);
+    writeToFile("README.md", markdownData);
+  });
+}
+
+//function call to initialize program
 init();
