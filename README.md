@@ -1,9 +1,9 @@
-[![License: ISC](https://img.shields.io/badge/License-ISC-lightgrey.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-  # FJFJFJFJJF
+  # README GENERATOR
 
   # Description
-  *jfjfjfjfjfj
+  *This README generator presents important  information about the app developed. This generator allows developers to focus on the actual development of their project and provides an easy and consistent way of creating a good README in minutes
 
   ## Table of Contents
   1. [Description](#description)
@@ -19,14 +19,14 @@
   *Steps to follow
   
   ## Usage
-  jfjfjfjjfjf
+  You need to open the folder terminal, enter node index.js to run the program, then answer the prompts. Your README will be automatically generated with all your input
   ## License
-  ISC
+  MIT
   ### Contributions
-  jfjfjfjfj
+  I collaborated with my class teammates
   ### Tests
-  jfjfjfjfj
+  You can access these files on my Github profile
   ### Questions
-  *[JessicaPerez1](https://github.com/JessicaPerez1)
-  * 1jessicaperez@gmail.com
+    *[JessicaPerez1](https://github.com/JessicaPerez1)
+    * 1jessicaperez@gmail.com
   
