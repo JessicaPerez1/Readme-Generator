@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-  # README GENERATOR
+  # THE README GENERATOR
   * [Deployed app link:](https://jessicaperez1.github.io/Readme-Generator/)
 
   # Description
@@ -8,13 +8,12 @@
 
   ## Table of Contents
   1. [Description](#description)
-  2. [Screenshots](#screenshots)
-  3. [Installation](#installation)
-  4. [Usage](#usage)
-  5. [License](#license)
-  6. [Contributions](#contributions)
-  7. [Tests](#tests)
-  8. [Questions](#questions)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contributions](#contributions)
+  6. [Tests](#tests)
+  7. [Questions](#questions)
 
   ## Installation
   *You can run this app locally. You can clone this README Generator repository to your computer.
