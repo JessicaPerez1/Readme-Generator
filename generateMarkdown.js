@@ -1,19 +1,3 @@
-// let tableContentsArr = questions.map((data) => data.name);
-// console.log(tableContentsArr);
-// let tableContentsLiArr = tableContentsArr.slice(2, 5);
-// console.log(tableContentsLiArr);
-
-// function generateLicense(license) {
-//   let badges = "";
-//   license.forEach(function (element) {
-//     badges += `[![License: ${element}](https://img.shields.io/badge/License-${element} - yellow.svg)](https://opensource.org/licenses/${element})
-//   `;
-//   });
-//   return badges;
-// }
-// ${generateLicense(data.license)}
-//  console.log(generateLicense(data.license));
-
 //function to generate markdown for README
 function generateMarkdown(data) {
   return `[![License: ${data.license}](https://img.shields.io/badge/License-${
@@ -22,7 +6,6 @@ function generateMarkdown(data) {
 
   # ${data.title.toUpperCase()}
   * [Deployed app link:](${data.link})
-  * ![Page screenshot]()
 
   # Description
   *${data.description}
@@ -33,7 +16,7 @@ function generateMarkdown(data) {
   3. [Installation](#installation)
   4. [Usage](#usage)
   5. [License](#license)
-  6. [Contributing](#contributing)
+  6. [Contributions](#contributions)
   7. [Tests](#tests)
   8. [Questions](#questions)
 
@@ -53,7 +36,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ### Questions
-  For any questions, please refer to my Github page or contact me by email!
+  For any questions about this app or if you'd like to contribute, please refer to my Github page or contact me by email!
   * [${data.github} Github link:](https://github.com/${data.github})
   * ${data.email}
 

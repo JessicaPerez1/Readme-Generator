@@ -15,11 +15,6 @@ const questions = [
   },
   {
     type: "input",
-    message: "Include the link to your app screenshot",
-    name: "screenshot",
-  },
-  {
-    type: "input",
     message: "Enter the deployed app link:",
     name: "link",
   },
@@ -30,8 +25,7 @@ const questions = [
   },
   {
     type: "input",
-    message:
-      "What type of installation is needed for this project to work properly? Please list necessary steps.",
+    message: "What type of installation is needed for this project?",
     name: "installation",
   },
   {
@@ -81,7 +75,7 @@ function init() {
   inquirer.prompt(questions).then(function (response) {
     console.log(response);
     var markdownData = generateMarkdown(response);
-    writeToFile("README.md", markdownData);
+    writeToFile("./demo/generated-readme.md", markdownData);
   });
 }
 
