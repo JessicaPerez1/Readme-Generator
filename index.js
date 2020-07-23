@@ -20,13 +20,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "Include the table of contents.",
-    name: "table",
-  },
-  {
-    type: "input",
     message:
-      "What type of installation is needed for your project to work properly?",
+      "What type of installation is needed for this project to work properly? Please list necessary steps.",
     name: "installation",
   },
   {
@@ -35,16 +30,10 @@ const questions = [
     name: "usage",
   },
   {
-    type: "checkbox",
-    message: "What license(s) did you use?",
+    type: "list",
+    message: "What license did you use?",
+    choices: ["MIT", "ISC", "Zlib"],
     name: "license",
-    choices: [
-      "MIT",
-      "ISC",
-      "PostgreSQL License",
-      "Mozilla Public License 2.0",
-      "Academic Free License v3.0",
-    ],
   },
   {
     type: "input",
@@ -58,8 +47,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "Do you have any questions?",
-    name: "questions",
+    message: "What is my Github username?",
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "What is my email address?",
+    name: "email",
   },
 ];
 
@@ -75,6 +69,7 @@ function writeToFile(fileName, data) {
 //function to initialize program
 function init() {
   inquirer.prompt(questions).then(function (response) {
+    console.log(response);
     var markdownData = generateMarkdown(response);
     writeToFile("README.md", markdownData);
   });

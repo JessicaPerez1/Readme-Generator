@@ -1,14 +1,43 @@
-// MODULE.EXPORTS??????
+// let tableContentsArr = questions.map((data) => data.name);
+// console.log(tableContentsArr);
+// let tableContentsLiArr = tableContentsArr.slice(2, 5);
+// console.log(tableContentsLiArr);
+
+// function generateLicense(license) {
+//   let badges = "";
+//   license.forEach(function (element) {
+//     badges += `[![License: ${element}](https://img.shields.io/badge/License-${element} - yellow.svg)](https://opensource.org/licenses/${element})
+//   `;
+//   });
+//   return badges;
+// }
+// ${generateLicense(data.license)}
+//  console.log(generateLicense(data.license));
+
 //function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-  # ${data.title}
+  return `[![License: ${data.license}](https://img.shields.io/badge/License-${
+    data.license
+  }-lightgrey.svg)](https://opensource.org/licenses/${data.license})
+
+  # ${data.title.toUpperCase()}
+
   # Description
-  ${data.description}
+  *${data.description}
+
   ## Table of Contents
-  ${data.table}
+  1. [Description](#description)
+  2. [Screenshots](#screenshots)
+  3. [Installation](#installation)
+  4. [Usage](#usage)
+  5. [License](#license)
+  6. [Contributing](#contributing)
+  7. [Tests](#tests)
+  8. [Questions](#questions)
+
   ## Installation
-  ${data.installation}
+  *Steps to follow
+  
   ## Usage
   ${data.usage}
   ## License
@@ -18,7 +47,9 @@ function generateMarkdown(data) {
   ### Tests
   ${data.tests}
   ### Questions
-  ${data.questions}`;
+    *[${data.github}](https://github.com/${data.github})
+    * ${data.email}
+  `;
 }
 
 module.exports = generateMarkdown;
