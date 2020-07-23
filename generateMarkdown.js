@@ -21,6 +21,7 @@ function generateMarkdown(data) {
   }-lightgrey.svg)](https://opensource.org/licenses/${data.license})
 
   # ${data.title.toUpperCase()}
+    * [Deployed app link:]${data.deployed}
 
   # Description
   *${data.description}
@@ -40,15 +41,19 @@ function generateMarkdown(data) {
   
   ## Usage
   ${data.usage}
+
   ## License
   ${data.license}
+
   ### Contributions
   ${data.contributions}
+
   ### Tests
   ${data.tests}
+
   ### Questions
-    *[${data.github}](https://github.com/${data.github})
-    * ${data.email}
+    * [GitHub profile link:](https://github.com/${data.github})
+    * [Email:]${data.email}
   `;
 }
 
