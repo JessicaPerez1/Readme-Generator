@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-  # THE README GENERATOR
+  # README GENERATOR
   * [Deployed app link:](https://jessicaperez1.github.io/Readme-Generator/)
 
   # Description
