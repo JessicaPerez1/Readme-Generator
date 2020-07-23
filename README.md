@@ -1,38 +1,47 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-  # THE README GENERATOR
-  * [Deployed app link:](https://jessicaperez1.github.io/Readme-Generator/)
+# THE README GENERATOR
 
-  # Description
-  *This README generator helps you generate a README file in just a few steps. It provides you with an easy and consistent way of creating a good README.
+- [Deployed app link:](https://jessicaperez1.github.io/Readme-Generator/)
+- [Demo video link:](https://drive.google.com/file/d/1-X4sVhJKDFilwASR5og4f_bOVMUM5oj7/view)
 
-  ## Table of Contents
-  1. [Description](#description)
-  2. [Installation](#installation)
-  3. [Usage](#usage)
-  4. [License](#license)
-  5. [Contributions](#contributions)
-  6. [Tests](#tests)
-  7. [Questions](#questions)
+# Description
 
-  ## Installation
-  *You can run this app locally. You can clone this README Generator repository to your computer.
-  
-  ## Usage
-  Open your folder terminal, make sure you have a ‘package.json’ file. If not, use node to run the ‘node init’. Then run the ‘node index.js’ command. You will be prompted with questions. Once completed, a new README.md file will be created in your ‘demo’ folder.
+\*This README generator helps you generate a README file in just a few steps. It provides you with an easy and consistent way of creating a good README.
 
-  ## License
-  MIT
+## Table of Contents
 
-  ### Contributions
-  Jessica Perez
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributions](#contributions)
+6. [Tests](#tests)
+7. [Questions](#questions)
 
-  ### Tests
-  n/a
+## Installation
 
-  ### Questions
-  For any questions about this app or if you'd like to contribute, please refer to my Github page or contact me by email!
-  * [JessicaPerez1 Github link:](https://github.com/JessicaPerez1)
-  * 1jessicaperez@gmail.com
+\*You can run this app locally. You can clone this README Generator repository to your computer.
 
-  
+## Usage
+
+Open your folder terminal, make sure you have a ‘package.json’ file. If not, use node to run the ‘node init’. Then run the ‘node index.js’ command. You will be prompted with questions. Once completed, a new README.md file will be created in your ‘demo’ folder.
+
+## License
+
+MIT
+
+### Contributions
+
+Jessica Perez
+
+### Tests
+
+n/a
+
+### Questions
+
+For any questions about this app or if you'd like to contribute, please refer to my Github page or contact me by email!
+
+- [JessicaPerez1 Github link:](https://github.com/JessicaPerez1)
+- 1jessicaperez@gmail.com
