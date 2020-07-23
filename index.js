@@ -15,8 +15,13 @@ const questions = [
   },
   {
     type: "input",
+    message: "Include the link to your app screenshot",
+    name: "screenshot",
+  },
+  {
+    type: "input",
     message: "Enter the deployed app link:",
-    name: "deployed",
+    name: "link",
   },
   {
     type: "input",

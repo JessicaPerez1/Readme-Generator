@@ -21,7 +21,8 @@ function generateMarkdown(data) {
   }-lightgrey.svg)](https://opensource.org/licenses/${data.license})
 
   # ${data.title.toUpperCase()}
-    * [Deployed app link:]${data.deployed}
+  * [Deployed app link:](${data.link})
+  * ![Page screenshot]()
 
   # Description
   *${data.description}
@@ -37,7 +38,7 @@ function generateMarkdown(data) {
   8. [Questions](#questions)
 
   ## Installation
-  *Steps to follow
+  *${data.installation}
   
   ## Usage
   ${data.usage}
@@ -52,8 +53,10 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ### Questions
-    * [GitHub profile link:](https://github.com/${data.github})
-    * [Email:]${data.email}
+  For any questions, please refer to my Github page or contact me by email!
+  * [${data.github} Github link:](https://github.com/${data.github})
+  * ${data.email}
+
   `;
 }
 
