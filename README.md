@@ -11,13 +11,12 @@
 
 ## Table of Contents
 
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Contributions](#contributions)
-6. [Tests](#tests)
-7. [Questions](#questions)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributions](#contributions)
+5. [Tests](#tests)
+6. [Questions](#questions)
 
 ## Installation
 

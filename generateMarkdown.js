@@ -35,8 +35,8 @@ function generateMarkdown(data) {
 
   ### Questions
   For any questions about this app or if you'd like to contribute, please refer to my Github page or contact me by email!
-  * [${data.github} Github link:](https://github.com/${data.github})
-  * ${data.email}
+  *[${data.github} Github link:](https://github.com/${data.github})
+  *${data.email}
 
   `;
 }
